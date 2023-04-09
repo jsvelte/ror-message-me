@@ -13,8 +13,9 @@
   </head>
 
   <body>
-    <%= render partial: "components/header" %>
+    <%= render partial: "shared/header" %>
     <div class="ui container">
+      <%= render partial: "shared/flash" %>
       <%= yield %>
     </div>
   </body>

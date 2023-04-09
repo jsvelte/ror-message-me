@@ -1,0 +1,17 @@
+<% if flash[:notice] %>
+  <div class="ui blue message">
+    <i class="close icon"></i>
+    <div class="header">
+      <%= flash[:notice] %>
+    </div>
+  </div>
+<% end %>
+
+<% if flash[:alert] %>
+    <div class="ui red message">
+    <i class="close icon"></i>
+    <div class="header">
+      <%= flash[:alert] %>
+    </div>
+  </div>
+<% end %>
